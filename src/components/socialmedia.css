@@ -1,0 +1,25 @@
+.social-media {
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+}
+.social-media-icons {
+  color: var(--skybluecolor);
+
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .social-media {
+    margin-left: 70px;
+    width: 200px;
+  }
+}
+@media screen and (min-width:1000px){
+    .social-media{
+        margin-left:280px;
+    }
+}

@@ -1,0 +1,8 @@
+.main-container-project-section {
+  background-color: #00171a;
+  padding-top: -30px;
+}
+.project-section-title {
+  /* text-decoration: underline; */
+  color: var(--skybluecolor);
+}

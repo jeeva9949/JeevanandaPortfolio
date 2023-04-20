@@ -1,0 +1,9 @@
+.main-container-contact {
+  background-color: #222;
+  padding-top: 10px;
+}
+@media screen and (min-width: 1000px) {
+  .main-container-contact {
+    padding-top: 100px;
+  }
+}

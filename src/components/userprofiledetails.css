@@ -1,0 +1,119 @@
+.main-conatiner {
+  background-color: var(--banner-bgcolor);
+  color: white;
+}
+.user-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-logo {
+  font-size: 5rem;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  background-color: deeppink;
+  border-radius: 50%;
+}
+.user-name {
+  text-align: center;
+}
+.details-name {
+  color: var(--skybluecolor);
+  text-decoration: underline;
+}
+.userdetails-name-heading {
+  background-color: var(--burl-color);
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+.userdetails-email-heading {
+  background-color: var(--burl-color);
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+.verified-account {
+  background-color: var(--burl-color);
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+.user-log-name {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-details-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.details-display {
+  height: 80vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 2rem;
+  /* justify-content: center; */
+}
+.userdetails-name {
+  background-color: var(--skybluecolor);
+}
+.userdetails-email {
+  background-color: var(--skybluecolor);
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+.userdetails-name {
+  background-color: var(--skybluecolor);
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+.verified-true {
+  background-color: var(--skybluecolor);
+}
+@media screen and (max-width: 500px) {
+  .user-log-name {
+    height: 40vh;
+  }
+  .details-display {
+    height: 40vh;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  /* .details-display {
+    padding-top: 50px;
+    padding-left: 4rem;
+  } */
+}
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .user-log-name {
+    height: 30vh;
+  }
+  .details-display {
+    height: 30vh;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  /* .details-display {
+    padding-top: 50px;
+    padding-left: 4rem;
+  } */
+}
+@media screen and (min-width: 700px) {
+  .details-display {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+  .details-display {
+    margin-top: 100px;
+  }
+}

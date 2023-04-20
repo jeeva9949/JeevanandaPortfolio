@@ -1,0 +1,26 @@
+.logoauthoimg {
+  width: 200px;
+  height: 200px;
+}
+.middle-conatiner-login {
+  background-color: #00171a;
+  height: 60vh;
+  color: white;
+}
+.middle-conatiner {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2rem;
+  background-color: #00171a;
+}
+button {
+  padding: 13px 18px;
+  border-radius: 10px;
+  background-color: #bff8fd;
+}
+button:hover {
+  background-color: var(--skybluecolor);
+}

@@ -1,0 +1,82 @@
+.Navbar_container {
+  background-color: #222;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.log {
+  border: 2px solid var(--skybluecolor);
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.log:hover {
+  background-color: var(--skybluecolor);
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.nav-link::after {
+  content: "";
+  opacity: 0;
+  transition: all 0.2s;
+  height: 2px;
+  width: 100%;
+  background-color: var(--skybluecolor);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+  color: var(--skybluecolor);
+}
+
+.logopic {
+  width: 50px;
+}
+.main {
+}
+.logo-conatiner {
+  padding-left: 6rem;
+}
+#menu {
+  padding-right: 13rem;
+}
+#menu ul li {
+  padding: 10px;
+}
+#menu ul li a {
+  font-size: 1.3rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+  padding: 5px 15px;
+  text-align: center;
+  /* color:var(--skybluecolor); */
+}
+.jeevaname {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--skybluecolor);
+}
+@media screen and (max-width: 700px) {
+  .nav-item .descriptions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .logo-conatiner {
+    padding-left: 1rem;
+  }
+  #menu ul li a {
+    padding: 10px 0px;
+    text-align: left;
+  }
+  .nav-link:hover {
+    color: red;
+  }
+}

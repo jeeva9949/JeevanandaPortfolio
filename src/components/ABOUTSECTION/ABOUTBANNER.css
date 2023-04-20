@@ -1,0 +1,83 @@
+.entery-container {
+  background-color: var(--banner-bgcolor);
+
+}
+.insidefirstcol {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: justify;
+}
+.first-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-family: "Kaushan Script", cursive;
+  line-height: 1.7;
+  letter-spacing: calc(1px + 0.1rem);
+}
+.mynameis {
+  color: #f1f5f8;
+  font-weight: bold;
+}
+.about-few-information {
+  letter-spacing: 0.1rem;
+}
+.nameType {
+  color: #52d1da;
+}
+.DOWNLOAD-BTN {
+  text-decoration: none;
+  background-color: #88ebf2;
+  color: black;
+  padding: 10px 16px;
+  border-radius: 5px;
+  transition: all 1s;
+}
+.DOWNLOAD-BTN:hover {
+  background-color: var(--skybluecolor);
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .CropImage {
+    display: none;
+  }
+  .name-in-about {
+    font-size: 1.1rem;
+  }
+  .mynameis {
+    font-size: 1.5rem;
+  }
+  .about-few-information {
+    letter-spacing: 0.01rem;
+  }
+  .DOWNLOAD-BTN {
+    font-size: 0.8rem;
+  }
+  .Second-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  .div-container {
+    background-color: var(--skybluecolor);
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+  }
+
+  .CropImage {
+    padding-top: 20px;
+    display: block;
+    width: 200px;
+    height: 350px;
+    object-fit: cover;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+}

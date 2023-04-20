@@ -1,0 +1,53 @@
+.main-projectinfo {
+  background-color: #00171a;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+h1 {
+  color: var(--skill-text-color);
+  /* border-bottom: 2px solid var(--skybluecolor); */
+  text-decoration: none;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: contain;
+}
+.card {
+  border-radius: var(--skill-border-radius);
+  margin-bottom: 2rem;
+  border: none;
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+}
+.card:hover {
+  box-shadow: var(--dark-shadow);
+  transform: translateY(-3px) scale(1.009);
+}
+
+.technolgys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-body {
+  background-color: var(--banner-bgcolor);
+  color: var(--skill-text-color);
+}
+.live {
+  padding-top: 10px;
+}
+
+.live .btn a {
+  text-decoration: none;
+  color: var(--live-text-color);
+  font-size: 1.25rem;
+}
+.technolgys p {
+  /* padding-left:10px; */
+  font-weight: 500;
+  background-color: var(--skills-bg-color);
+  color: var(--skill-text-color);
+  margin: 0px 5px;
+  font-size: 1rem;
+  border-radius: var(--skill-border-radius);
+}
